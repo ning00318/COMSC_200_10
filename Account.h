@@ -7,7 +7,7 @@ public:
     Account(double initialBalance);
     void credit(double addMoney);
     void debit(double withdrawMoney);
-    double getBalance();
+    double getBalance() const;
 private:
     double balance;
 };
