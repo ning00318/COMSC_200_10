@@ -2,8 +2,8 @@
 #include "SavingsAccount.h"
 using namespace std;
 
-SavingsAccount::SavingsAccount(double initialBalance, double initialInerest)
-    : Account(initialBalance), interestRate(initialInerest)
+SavingsAccount::SavingsAccount(double initialBalance, double initialInterest)
+    : Account(initialBalance), interestRate(initialInterest)
 {
 
 }

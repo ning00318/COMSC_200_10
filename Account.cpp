@@ -17,12 +17,18 @@ void Account::credit(double addMoney)
     balance += addMoney;
 }
 
-void Account::debit(double withdrawMoney)
+bool Account::debit(double withdrawMoney)
 {
     if (withdrawMoney <= balance)
+    {
         balance -= withdrawMoney;
+        return true;
+    }
     else
+    {
         cout << "Debit amount exceeded account balance." << endl;
+        return false;
+    }
 }
 
 double Account::getBalance() const

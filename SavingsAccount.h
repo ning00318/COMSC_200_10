@@ -5,7 +5,7 @@
 class SavingsAccount : public Account
 {
 public:
-    SavingsAccount(double initialBalance, double initialInerest);
+    SavingsAccount(double initialBalance, double initialInterest);
     double calculateInterest() const;
 private:
     double interestRate;
