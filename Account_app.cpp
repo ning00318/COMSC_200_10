@@ -10,7 +10,7 @@ using namespace std;
 int main()
 {
    Account account1( 50.0 ); // create Account object
-   SavingsAccount account2( 25.0, .03 ); // create SavingsAccount object
+   SavingsAccount account2( 25.0, 0.03 ); // create SavingsAccount object
    CheckingAccount account3( 80.0, 1.0 ); // create CheckingAccount object
 
    cout << fixed << setprecision( 2 );

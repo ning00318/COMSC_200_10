@@ -2,6 +2,7 @@
 #define CHECKINGACCOUNT_H
 #include "Account.h"
 
+// Derived class
 class CheckingAccount : public Account
 {
 public:

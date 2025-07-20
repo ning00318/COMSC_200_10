@@ -2,6 +2,7 @@
 #define SAVINGSACCOUNT_H
 #include "Account.h"
 
+// Derived class
 class SavingsAccount : public Account
 {
 public:
